@@ -28,7 +28,7 @@ import yaml
 from qcore import qclogging
 from qcore.validate_vm import validate_vm_files
 
-from gen_coords import gen_coords
+from VM.gen_coords import gen_coords
 
 NZVM_BIN = find_executable("NZVM")
 
