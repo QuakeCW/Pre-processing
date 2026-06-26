@@ -33,7 +33,7 @@ from qcore.validate_vm import validate_vm_bounds
 from empirical.util.classdef import GMM, Site, Fault
 from empirical.util.empirical_factory import compute_gmm
 
-from plot_vm import plot_vm
+from VM.plot_vm import plot_vm
 
 script_dir = Path(__file__).resolve().parent
 NZ_CENTRE_LINE = script_dir / "../SrfGen/NHM/res/centre.txt"
